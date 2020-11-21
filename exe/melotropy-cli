@@ -1,7 +1,6 @@
-# frozen_string_literal: true
-
 #!/usr/bin/env ruby
 
-require "melotropy/cli"
+# frozen_string_literal: true
 
-Melotropy::Cli.start(ARGV)
+require "melotropy/cli"
+Melotropy::Cli::CLI.start(ARGV)

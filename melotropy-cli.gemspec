@@ -24,4 +24,9 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.add_dependency "thor"
+
+  spec.add_development_dependency "aruba", "~> 1.0.3"
+  spec.add_development_dependency "cucumber"
 end
