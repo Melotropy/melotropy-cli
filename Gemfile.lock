@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     melotropy-cli (0.1.1)
-      thor
+      thor (~> 1.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -110,7 +110,7 @@ PLATFORMS
 
 DEPENDENCIES
   aruba (~> 1.0.3)
-  cucumber
+  cucumber (~> 5.2.0)
   melotropy-cli!
   minitest (~> 5.0)
   pry (~> 0.13)
