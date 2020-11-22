@@ -5,7 +5,7 @@ require_relative "lib/melotropy/cli/version"
 Gem::Specification.new do |spec|
   spec.name          = "melotropy-cli"
   spec.version       = Melotropy::Cli::VERSION
-  spec.date          = "2020-11-11"
+  spec.date          = "2020-11-22"
   spec.authors       = ["Fernando Garcia Samblas"]
   spec.email         = ["fernando.garcia@the-cocktail.com"]
   spec.license       = "GPL-3.0"
@@ -15,8 +15,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["homepage_uri"]    = spec.homepage
-  spec.metadata["source_code_uri"] = "https://try.gogs.io/Melotropy/melotropy-cli"
-  spec.metadata["changelog_uri"] = "https://try.gogs.io/Melotropy/melotropy-cli/src/master/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/nando/melotropy-cli"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{\A(?:test|spec|features)/}) }
