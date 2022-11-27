@@ -1,5 +1,4 @@
 [travis]: https://travis-ci.org/nando/melotropy-cli
-
 # melotropy-cli
 
 [![Build Status](https://travis-ci.org/nando/melotropy-cli.svg?branch=main)][travis]
